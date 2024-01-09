@@ -35,7 +35,19 @@ Welcome to WallFusion, your go-to wallpaper app that seamlessly integrates with 
 
 ### Dependencies
 
-- [Pexels API](https://www.pexels.com/api/): The app utilizes the Pexels API to fetch curated wallpapers and perform search operations.
+To use this app, you'll need to obtain an API key from Pexels. Follow these steps to get your Pexels Developer API key:
+
+1. **Visit Pexels API Website:**
+   Go to [Pexels API](https://www.pexels.com/api/) and sign up for a developer account.
+
+2. **Create an App:**
+   Once logged in, create a new application to obtain your API key. This key will be used to authenticate your requests to the Pexels API.
+
+3. **Copy Your API Key:**
+   After creating the app, copy the generated API key from your Pexels developer dashboard.
+
+4. **Configure the App:**
+   In the app's source code, locate the configuration file or section where the API key is expected. Replace the placeholder API key with the one you obtained from Pexels.
 
 ### Contributing
 
