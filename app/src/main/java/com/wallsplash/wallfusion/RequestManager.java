@@ -70,7 +70,7 @@ public class RequestManager {
     private interface CallWallpaperList {
         @Headers({
                 "Accept: application/json",
-                "Authorization: UNBsW9kU61Z6pQBUuFeb8Vuck7fzLdc5FHQ9LLaRXiN9jbzjq5YxhxF3"
+                "Authorization: YOUR_PEXELS_API_HERE"
         })
         @GET("curated/")
         Call<CuratedApiResponse> getWallpapers(
@@ -82,7 +82,7 @@ public class RequestManager {
     private interface CallWallpaperListSeaarch {
         @Headers({
                 "Accept: application/json",
-                "Authorization: UNBsW9kU61Z6pQBUuFeb8Vuck7fzLdc5FHQ9LLaRXiN9jbzjq5YxhxF3"
+                "Authorization: YOUR_PEXELS_API_HERE"
         })
         @GET("search")
         Call<SearchApiResponse> searchWallpapers(
